@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Zhu Naumann</title>
+    <meta name="description" content="Zhu Naumann - Professional Portfolio & Consultant">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:ital,wght@0,300;0,400;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/output.css">
+    <link rel="canonical" href="https://zhunaumann.com/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Merriweather', 'serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="antialiased flex flex-col min-h-screen">
+
+    <nav class="glass-nav bg-white/80 backdrop-blur-md border-b border-white/20 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="/" class="text-2xl font-serif font-bold text-slate-900 tracking-tight">Zhu<span
+                            class="text-brand-600">Naumann</span></a>
+                </div>
+                <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
+                    <a href="/"
+                        class="border-transparent text-slate-500 hover:border-brand-500 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">Home</a>
+                    <a href="/about/"
+                        class="border-transparent text-slate-500 hover:border-brand-500 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">About</a>
+                    <a href="/work/"
+                        class="border-transparent text-slate-500 hover:border-brand-500 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">Work</a>
+                    <a href="/services/"
+                        class="border-transparent text-slate-500 hover:border-brand-500 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">Services</a>
+                    <a href="/blog/"
+                        class="border-transparent text-slate-500 hover:border-brand-500 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium transition-colors">Blog</a>
+                    <a href="/contact/"
+                        class="text-white bg-brand-600 hover:bg-brand-700 px-4 py-2 rounded-full text-sm font-medium transition-all shadow-md hover:shadow-lg transform hover:-translate-y-0.5">Contact</a>
+                </div>
+                <!-- Mobile menu button placeholder -->
+                <div class="-mr-2 flex items-center sm:hidden">
+                    <button type="button"
+                        class="inline-flex items-center justify-center p-2 rounded-md text-slate-400 hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-brand-500"
+                        aria-controls="mobile-menu" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-slate-50 pt-20 pb-20 lg:pt-32 lg:pb-28 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+                <div class="lg:grid lg:grid-cols-12 lg:gap-8 items-center">
+                    <div class="sm:text-center md:max-w-2xl md:mx-auto lg:col-span-6 lg:text-left">
+                        <h1
+                            class="text-4xl tracking-tight font-extrabold text-slate-900 sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl">
+                            <span class="block xl:inline">Crafting Digital</span>
+                            <span class="block text-brand-600 xl:inline">Excellence</span>
+                        </h1>
+                        <p
+                            class="mt-3 text-base text-slate-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                            Professional freelance services in design, development, and consulting. I help businesses
+                            transform ideas into impactful digital reality.
+                        </p>
+                        <div class="mt-8 sm:max-w-lg sm:mx-auto sm:text-center lg:text-left lg:mx-0">
+                            <div class="space-x-4">
+                                <a href="/work/"
+                                    class="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-brand-600 hover:bg-brand-700 transition-all">
+                                    View Work
+                                </a>
+                                <a href="/contact/"
+                                    class="inline-flex items-center px-6 py-3 border border-slate-300 text-base font-medium rounded-full text-slate-700 bg-white hover:bg-slate-50 transition-all">
+                                    Contact Me
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="mt-12 relative sm:max-w-lg sm:mx-auto lg:mt-0 lg:max-w-none lg:mx-0 lg:col-span-6 lg:flex lg:items-center">
+                        <div
+                            class="relative mx-auto w-full rounded-lg shadow-lg lg:max-w-md overflow-hidden transform rotate-2 hover:rotate-0 transition-transform duration-500">
+                            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Zhu Naumann Architecture" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center">
+                    <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">Expertise & Services</h2>
+                    <p class="mt-4 max-w-2xl text-xl text-slate-500 mx-auto">
+                        Delivering high-quality solutions tailored to your specific needs.
+                    </p>
+                </div>
+                <div class="mt-12 grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                    <div class="bg-slate-50 rounded-xl p-8 hover:shadow-xl transition-shadow border border-slate-100">
+                        <div
+                            class="w-12 h-12 bg-brand-100 text-brand-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Professional consulting</h3>
+                        <p class="text-slate-500">Professional professional consulting services designed to achieve your
+                            business goals.</p>
+                        <a href="/services/"
+                            class="mt-4 inline-flex items-center text-brand-600 hover:text-brand-700 font-medium">Learn
+                            more &rarr;</a>
+                    </div>
+                    <div class="bg-slate-50 rounded-xl p-8 hover:shadow-xl transition-shadow border border-slate-100">
+                        <div
+                            class="w-12 h-12 bg-brand-100 text-brand-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Freelance design/writing/development</h3>
+                        <p class="text-slate-500">Professional freelance design/writing/development services designed to
+                            achieve your business goals.</p>
+                        <a href="/services/"
+                            class="mt-4 inline-flex items-center text-brand-600 hover:text-brand-700 font-medium">Learn
+                            more &rarr;</a>
+                    </div>
+                    <div class="bg-slate-50 rounded-xl p-8 hover:shadow-xl transition-shadow border border-slate-100">
+                        <div
+                            class="w-12 h-12 bg-brand-100 text-brand-600 rounded-lg flex items-center justify-center mb-6">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                </path>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Portfolio showcase</h3>
+                        <p class="text-slate-500">Professional portfolio showcase services designed to achieve your
+                            business goals.</p>
+                        <a href="/services/"
+                            class="mt-4 inline-flex items-center text-brand-600 hover:text-brand-700 font-medium">Learn
+                            more &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-900 text-white mt-auto">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-1">
+                    <span class="text-2xl font-serif font-bold tracking-tight">Zhu<span
+                            class="text-brand-500">Naumann</span></span>
+                    <p class="mt-4 text-slate-400 text-sm">
+                        Appears to be a personal portfolio website for an individual professional, likely in fields such
+                        as design, writing, consulting, technology, or academia.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-200 tracking-wider uppercase mb-4">Sitemap</h3>
+                    <ul class="space-y-3">
+                        <li><a href="/" class="text-slate-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="/about/" class="text-slate-400 hover:text-white transition-colors">About</a></li>
+                        <li><a href="/work/" class="text-slate-400 hover:text-white transition-colors">Work</a></li>
+                        <li><a href="/services/" class="text-slate-400 hover:text-white transition-colors">Services</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-200 tracking-wider uppercase mb-4">Resources</h3>
+                    <ul class="space-y-3">
+                        <li><a href="/blog/" class="text-slate-400 hover:text-white transition-colors">Blog</a></li>
+                        <li><a href="/contact/" class="text-slate-400 hover:text-white transition-colors">Contact</a>
+                        </li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Privacy Policy</a>
+                        </li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Imprint</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-sm font-semibold text-slate-200 tracking-wider uppercase mb-4">Connect</h3>
+                    <p class="text-slate-400 text-sm mb-4">
+                        contact@zhunaumann.com
+                    </p>
+                    <div class="flex space-x-6">
+                        <!-- Social icons would go here -->
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-slate-800 pt-8">
+                <p class="text-base text-slate-400 text-center">
+                    &copy; 2025 Zhu Naumann. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
